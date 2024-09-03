@@ -44,12 +44,12 @@ class BottomBar extends StatelessWidget {
                 SizedBox(height: 20),
                 InfoText(
                   type: 'Email',
-                  text: 'explore@gmail.com',
+                  text: 'keg4re@gmail.com',
                 ),
                 SizedBox(height: 5),
                 InfoText(
                   type: 'Address',
-                  text: '128, Trymore Road, Delft, MN - 56124',
+                  text: 'Hoa Quy, Ngu Hanh Son, Da Nang - 50000',
                 ),
                 SizedBox(height: 20),
                 Container(
