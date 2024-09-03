@@ -56,9 +56,9 @@ class _DestinationCarouselState extends State<DestinationCarousel> {
 
     return Stack(
       children: [
-        CarouselSlider(
+        ca_slider.CarouselSlider(
           items: imageSliders,
-          options: CarouselOptions(
+          options: ca_slider.CarouselOptions(
               scrollPhysics: ResponsiveWidget.isSmallScreen(context)
                   ? PageScrollPhysics()
                   : NeverScrollableScrollPhysics(),
