@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as ca_slider;
 import 'package:explore/widgets/responsive.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +10,7 @@ class DestinationCarousel extends StatefulWidget {
 class _DestinationCarouselState extends State<DestinationCarousel> {
   final String imagePath = 'assets/images/';
 
-  final CarouselController _controller = CarouselController();
+  final ca_slider.CarouselController _controller = ca_slider.CarouselController();
 
   List _isHovering = [false, false, false, false, false, false, false];
   List _isSelected = [true, false, false, false, false, false, false];
